@@ -338,7 +338,7 @@ nav {
     border-bottom: 1px solid black;
   }
   .nav-links li a {
-    color: black;
+    color: #343a40;
   }
   .nav-links li:nth-child(1) {
     margin-top: 3em;
@@ -796,6 +796,10 @@ nav {
   max-width: 1100px;
 }
 
+.portfolio-heading button {
+  color: #343a40;
+}
+
 .portfolio-card h1 {
   margin: 0;
   font-size: 1.5em;
@@ -1182,6 +1186,10 @@ nav {
   max-width: 1000px;
 }
 
+.sub-heading button {
+  color: #343a40;
+}
+
 .pricing-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1353,6 +1361,9 @@ nav {
             align-items: center;
     padding: 0.5em;
   }
+  .pricing-card-heading button {
+    color: #343a40;
+  }
   .gold-pricing-card {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
@@ -1434,6 +1445,10 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+}
+
+.contact-btn-box button {
+  color: #343a40;
 }
 
 input[type="text"] {

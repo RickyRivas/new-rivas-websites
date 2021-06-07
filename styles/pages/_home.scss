@@ -204,6 +204,9 @@
   padding: 1em;
   margin: auto;
   max-width: 1000px;
+  & button {
+    color: $gunmetal;
+  }
 }
 
 .pricing-card {
@@ -317,6 +320,9 @@
     display: flex;
     align-items: center;
     padding: 0.5em;
+    & button {
+      color: $gunmetal;
+    }
   }
   .gold-pricing-card {
     order: 2;
@@ -378,6 +384,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  & button {
+    color: $gunmetal;
+  }
 }
 input[type="text"] {
   border-radius: 8px;
