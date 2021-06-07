@@ -1047,7 +1047,7 @@ nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    color: rgba(0, 0, 0, 0.7);
+    color: #f8f9fa;
     margin-top: 3em;
   }
   .landing-illustration {
