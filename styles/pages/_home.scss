@@ -136,6 +136,7 @@
   }
 }
 /* intro container */
+
 .intro-section {
   width: 100%;
   background-color: $cultured;
@@ -148,7 +149,7 @@
 .intro-heading {
   text-align: center;
 }
-.features {
+.services {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -156,7 +157,7 @@
   align-items: center;
   max-width: 1200px;
 }
-.feature {
+.service {
   margin: 1.5em 0.2em;
   font-size: 1em;
   text-align: center;
@@ -173,4 +174,19 @@
 
 .service-svg {
   width: 4em;
+}
+@media all and (min-width: 1200px) {
+  .feature {
+    width: 300px;
+  }
+}
+/* feature section */
+.feature-section {
+  width: 100%;
+}
+.feature-container {
+  max-width: 1200px;
+}
+.feature-heading {
+  text-align: center;
 }

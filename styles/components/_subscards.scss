@@ -1,0 +1,138 @@
+/* Portfolio Section */
+.portfolio-section {
+  width: 100%;
+}
+.portfolio-container {
+  padding: 1em;
+  margin: auto;
+}
+.portfolio-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: auto;
+}
+.portfolio-card {
+  height: 17em;
+  width: 100%;
+  max-width: 425px;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: flex-end;
+  margin: 1em 0.2em;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #ccc;
+  text-decoration: none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/tyler-nix-64TNDO1n7Wg-unsplash.jpeg);
+  background-size: cover;
+}
+.pf2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/pexels-thgusstavo-santana-2076930.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pf3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/images/michael-oxendine-GHCVUtBECuY-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 10em;
+  margin: auto;
+  max-width: 1100px;
+}
+.portfolio-card h1 {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+.portfolio-card p {
+  font-size: 0.75em;
+  font-family: "Open Sans";
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+.portfolio-card .tags {
+  display: flex;
+}
+.portfolio-card .tags .tag {
+  font-size: 0.75em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+  transition: all, var(--transition-time);
+}
+
+.portfolio-card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: 0.8;
+}
+.portfolio-card:before,
+.portfolio-card:after {
+  content: "";
+  transform: scale(0);
+  transform-origin: top left;
+
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+}
+.portfolio-heading-button {
+  width: 9em;
+  height: 2.5em;
+  text-align: center;
+  border: none;
+  border: 1px solid #c9d1d8;
+  border-radius: 2em;
+  background-color: #fff;
+}
+@media all and (min-width: 768px) {
+  .portfolio-card {
+    height: 15em;
+    width: 350px;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    align-items: flex-end;
+    margin: 1em 0.2em;
+    position: relative;
+    overflow: hidden;
+    border: 10px solid #ccc;
+    text-decoration: none;
+  }
+}
+@media all and (max-width: 768px) {
+  .portfolio-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: auto;
+  }
+}
