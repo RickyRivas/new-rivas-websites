@@ -1,0 +1,200 @@
+/* Product list */
+.product-wrapper {
+  margin: 0 50px 50px;
+}
+.product-grid {
+  background-color: transparent;
+  max-width: 834px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.gift-grid {
+}
+.product {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  background-color: white;
+  color: #2b2b2b;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #eeedec;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  -webkit-transition: box-shadow 200ms ease-out;
+  -moz-transition: box-shadow 200ms ease-out;
+  -o-transition: box-shadow 200ms ease-out;
+  transition: box-shadow 200ms ease-out;
+  margin: 1em;
+}
+a.gift-product {
+  background-color: transparent;
+}
+a.product:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.product img {
+  max-width: 100%;
+  padding: 10%;
+}
+.item-name {
+  font-size: 0.9em;
+  padding: 0 10% 10px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--standard-gold);
+}
+.description {
+  font-size: 0.8em;
+  padding: 0 8%;
+  line-height: 140%;
+  min-height: 68px;
+  margin: 0.5em 0;
+}
+.price {
+  font-size: 0.9em;
+  font-weight: bold;
+  font-weight: 700;
+  padding: 0 10% 0;
+  margin: 0 0 20px 0;
+}
+.big {
+  width: 50%;
+  border-bottom: 0px;
+}
+.product-title {
+  max-width: 960px;
+  padding: 0 5%;
+  margin: 60px auto 10px;
+}
+
+/* Product Page */
+.product-page {
+  margin: 0 10px 10px;
+  background-color: white;
+}
+.product-info {
+  padding: 100px 30px 40px 0;
+}
+.product-price {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+.product-description {
+  margin: 20px 0 0 0;
+  font-style: italic;
+}
+.add-to-bag {
+  margin: 30px 0;
+  width: 150px;
+}
+.wpsc_buy_button_container {
+  max-width: 290px;
+}
+.product-page-image {
+  padding: 100px 10px 30px;
+  text-align: center;
+}
+.ingrediants-list {
+  display: block;
+  height: 55px;
+  padding: 15px 0 15px 50px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  background-image: url(#);
+  background-repeat: no-repeat;
+  background-position: 10px 15px;
+  overflow: hidden;
+}
+.expanded {
+  height: auto;
+}
+.ingrediants-list .service {
+  margin: 20px 0;
+}
+.ingrediants-list .service {
+  text-decoration: none;
+}
+.product_form .wpsc_buy_button_container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.empty-cart {
+  max-width: 590px;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 360px;
+  text-align: center;
+}
+.empty-cart h3 {
+  padding-top: 90px;
+  margin-bottom: 20px;
+}
+.empty-cart p {
+  text-align: center;
+}
+.empty-cart a.button {
+  max-width: 350px;
+}
+/* Slider */
+.slider {
+  height: 520px;
+  margin: 0 10px;
+}
+.darken {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #1b1b1b;
+  opacity: 0.5;
+  -webkit-transition: opacity 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out;
+  -o-transition: opacity 200ms ease-out;
+  transition: opacity 200ms ease-out;
+}
+.slide.s1 {
+  background-image: url("../img/slider/slide-1.jpg");
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide.s2 {
+  background-image: url("../img/slider/slide-2.jpg");
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide.s3 {
+  background-image: url("../img/slider/slide-3.jpg");
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide.s4 {
+  background-image: url("../img/slider/slide-4.jpg");
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

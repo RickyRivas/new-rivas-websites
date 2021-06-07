@@ -1,0 +1,62 @@
+.halves-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.img {
+  width: 100%;
+  background: url(/images/kam-idris-_HqHX3LBN18-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.halves-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  background: #f1f1f1;
+  margin: auto;
+  max-width: 1200px;
+  grid-template-areas: "img box";
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  & button {
+    color: $gunmetal;
+    background-color: #fff;
+    border-radius: 2em;
+    border: 1px solid #ebebeb;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+}
+.halves-card .img {
+  max-height: 400px;
+  grid-area: 1;
+}
+.halves-card > div {
+  padding: 0.5em;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  grid-area: box;
+  height: 400px;
+}
+.halves-card:nth-child(even) img {
+  order: 2;
+}
+@media (max-width: 768px) {
+  .halves-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    background: #f1f1f1;
+    margin: auto;
+    max-width: 500px;
+    grid-template-areas:
+      "1"
+      "2";
+  }
+}
