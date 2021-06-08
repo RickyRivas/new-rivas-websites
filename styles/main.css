@@ -715,6 +715,7 @@ nav {
 /* Portfolio Section */
 .portfolio-section {
   width: 100%;
+  background-color: #f8f9fa;
 }
 
 .portfolio-container {
@@ -1111,8 +1112,6 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -1139,10 +1138,13 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   background-color: transparent;
+  padding: 2em 1em;
   width: 100%;
   max-width: 400px;
   max-height: 15em;
   border-radius: 8px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .service-svg {
