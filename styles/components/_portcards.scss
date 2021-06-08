@@ -27,11 +27,12 @@
   margin: 1em 0.2em;
   position: relative;
   overflow: hidden;
-  border: 10px solid #ccc;
+  border: 10px solid $lightgray;
   text-decoration: none;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../images/tyler-nix-64TNDO1n7Wg-unsplash.jpeg);
   background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .pf2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),

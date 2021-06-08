@@ -754,11 +754,13 @@ nav {
   margin: 1em 0.2em;
   position: relative;
   overflow: hidden;
-  border: 10px solid #ccc;
+  border: 10px solid #ced4da;
   text-decoration: none;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/tyler-nix-64TNDO1n7Wg-unsplash.jpeg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/tyler-nix-64TNDO1n7Wg-unsplash.jpeg);
   background-size: cover;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .pf2 {
@@ -1147,9 +1149,12 @@ nav {
   width: 4em;
 }
 
-@media all and (min-width: 1200px) {
-  .feature {
-    width: 300px;
+@media all and (max-width: 1024px) {
+  .services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

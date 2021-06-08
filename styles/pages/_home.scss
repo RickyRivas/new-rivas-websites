@@ -179,12 +179,11 @@
 .service-svg {
   width: 4em;
 }
-@media all and (min-width: 1200px) {
-  .feature {
-    width: 300px;
+@media all and (max-width: 1024px) {
+  .services {
+    flex-direction: column;
   }
 }
-
 /* Subscription Section */
 .subscription-section {
   width: 100%;
