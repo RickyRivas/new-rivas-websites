@@ -165,7 +165,7 @@ nav {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #343a40;
+  background-color: #000;
 }
 
 .hamburger-box {
@@ -186,7 +186,7 @@ nav {
 .hamburger-inner::after {
   width: 40px;
   height: 3px;
-  background-color: #343a40;
+  background-color: #000;
   border-radius: 4px;
   position: absolute;
   -webkit-transition-property: -webkit-transform;
@@ -326,7 +326,7 @@ nav {
     opacity: 0;
     padding: 0.5em 2em;
     font-size: 1.1em;
-    text-align: left;
+    text-align: center;
     color: black;
     margin: 0.3em;
     width: 100%;
@@ -421,7 +421,7 @@ nav {
   width: 100%;
   position: relative;
   height: auto;
-  background-color: #f1f1f1;
+  background-color: #495057;
 }
 
 .footer .col {
@@ -441,7 +441,7 @@ nav {
   font-size: 12px;
   line-height: 17px;
   padding: 20px 0px 5px 0px;
-  color: #343a40;
+  color: #adb5bd;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -454,7 +454,7 @@ nav {
 }
 
 .footer .col ul li {
-  color: #999999;
+  color: #dee2e6;
   font-size: 14px;
   font-family: inherit;
   font-weight: bold;
@@ -471,7 +471,7 @@ nav {
 }
 
 .footer .col ul li:hover {
-  color: #000;
+  color: #adb5bd;
   transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
@@ -524,11 +524,11 @@ nav {
 }
 
 .credit p {
-  color: #343a40;
+  color: #e9ecef;
 }
 
 .credit a {
-  color: #000;
+  color: #ced4da;
   text-decoration: none;
   cursor: pointer;
 }

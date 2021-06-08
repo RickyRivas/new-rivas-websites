@@ -95,7 +95,7 @@ nav {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: $gunmetal;
+  background-color: #000;
 }
 
 .hamburger-box {
@@ -115,7 +115,7 @@ nav {
 .hamburger-inner::after {
   width: 40px;
   height: 3px;
-  background-color: $gunmetal;
+  background-color: #000;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -209,7 +209,7 @@ nav {
     opacity: 0;
     padding: 0.5em 2em;
     font-size: 1.1em;
-    text-align: left;
+    text-align: center;
     color: black;
     margin: 0.3em;
     width: 100%;

@@ -6,7 +6,7 @@
   width: 100%;
   position: relative;
   height: auto;
-  background-color: #f1f1f1;
+  background-color: $davysgrey;
 }
 .footer .col {
   width: 190px;
@@ -24,7 +24,7 @@
   font-size: 12px;
   line-height: 17px;
   padding: 20px 0px 5px 0px;
-  color: $gunmetal;
+  color: $cadetblue;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -35,7 +35,7 @@
   padding: 0;
 }
 .footer .col ul li {
-  color: #999999;
+  color: $gainsboro;
   font-size: 14px;
   font-family: inherit;
   font-weight: bold;
@@ -51,7 +51,7 @@
 }
 
 .footer .col ul li:hover {
-  color: #000;
+  color: $cadetblue;
   transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
@@ -98,10 +98,10 @@
   padding: 1em;
 }
 .credit p {
-  color: $gunmetal;
+  color: $cultured2;
 }
 .credit a {
-  color: #000;
+  color: $lightgray;
   text-decoration: none;
   cursor: pointer;
 }
