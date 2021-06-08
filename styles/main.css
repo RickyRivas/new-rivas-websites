@@ -89,16 +89,16 @@ nav {
 }
 
 .nav-links li:nth-child(1) {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #495057;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: #495057;
 }
 
 .nav-links li:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #495057;
 }
 
 .hamburger.hamburger--spring {
@@ -110,11 +110,11 @@ nav {
   margin: 1em;
   font-size: 1.2em;
   font-weight: 100;
-  color: #f8f9fa;
+  color: #495057;
 }
 
 .logo a {
-  color: #f8f9fa;
+  color: #495057;
   text-decoration: none;
 }
 
@@ -321,8 +321,6 @@ nav {
     transition: transform 0.3s ease-in;
     transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
     background-color: #dee2e6;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
   .nav-links li {
     opacity: 0;
@@ -722,6 +720,8 @@ nav {
 .portfolio-container {
   padding: 1em;
   margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .portfolio-cards {
@@ -735,13 +735,11 @@ nav {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 1400px;
-  margin: auto;
+  max-width: 1200px;
 }
 
 .portfolio-card {
-  height: 17em;
-  width: 100%;
+  height: 400px;
   max-width: 425px;
   font-size: 1.5em;
   color: white;
