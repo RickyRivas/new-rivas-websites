@@ -1121,9 +1121,10 @@ nav {
 }
 
 .service {
-  margin: 1.5em 0.2em;
+  margin: 1.5em 0.4em;
   font-size: 1em;
   text-align: center;
+  background-color: #e9ecef;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
