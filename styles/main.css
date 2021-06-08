@@ -533,7 +533,7 @@ nav {
   cursor: pointer;
 }
 
-.halves-section {
+.quote-section {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -549,18 +549,18 @@ nav {
 
 .img {
   width: 100%;
-  background: url(/images/kam-idris-_HqHX3LBN18-unsplash.jpg);
+  background: url(/images/imac-screen.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.halves-card {
+.quote-card {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
-  background: #f1f1f1;
+  background: #f8f9fa;
   margin: auto;
   max-width: 1200px;
       grid-template-areas: "img box";
@@ -568,8 +568,8 @@ nav {
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.halves-card button {
-  color: #343a40;
+.quote-card button {
+  color: #495057;
   background-color: #fff;
   border-radius: 2em;
   border: 1px solid #ebebeb;
@@ -577,13 +577,14 @@ nav {
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.halves-card .img {
+.quote-card .img {
   max-height: 400px;
   -ms-grid-row: 1;
-  grid-area: 1;
+  -ms-grid-column: 1;
+  grid-area: img;
 }
 
-.halves-card > div {
+.quote-card > div {
   padding: 0.5em;
   height: 100%;
   display: -webkit-box;
@@ -604,23 +605,23 @@ nav {
   height: 400px;
 }
 
-.halves-card:nth-child(even) img {
+.quote-card:nth-child(even) img {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
 
 @media (max-width: 768px) {
-  .halves-card {
+  .quote-card {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 0;
-    background: #f1f1f1;
+    background: #f8f9fa;
     margin: auto;
     max-width: 500px;
-        grid-template-areas: "1" "2";
+        grid-template-areas: "box" "img";
   }
 }
 
