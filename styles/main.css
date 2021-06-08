@@ -942,6 +942,10 @@ nav {
   height: 2em;
 }
 
+.bluespan {
+  color: #1cb5e0;
+}
+
 /* Landing Section */
 @media (min-width: 769px) {
   .landing-section {
