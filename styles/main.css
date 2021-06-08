@@ -632,10 +632,10 @@ nav {
   left: 0;
   top: 0;
   z-index: -1;
-  --gradient-color-1: #0b486b;
-  --gradient-color-2: #f56217;
-  --gradient-color-3: #0b486b;
-  --gradient-color-4: #f56217;
+  --gradient-color-1: #000046;
+  --gradient-color-2: #1cb5e0;
+  --gradient-color-3: #000046;
+  --gradient-color-4: #1cb5e0;
 }
 
 .top-link {
