@@ -60,7 +60,11 @@
     justify-content: center;
     line-height: 2em;
     height: 100%;
-    color: $davysgrey;
+    color: $cultured;
+    & button {
+      color: $cultured;
+      border: 1px solid $cultured;
+    }
   }
   .landing-illustration {
     width: 100%;
@@ -108,8 +112,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: $davysgrey;
+    color: $cultured;
     margin-top: 3em;
+    & button {
+      color: $cultured;
+      border: 1px solid $cultured;
+    }
   }
   .landing-illustration {
     display: flex;
