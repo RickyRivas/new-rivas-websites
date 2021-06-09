@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Styles -->
     <link href="styles/main.css" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -81,7 +83,13 @@
             </p>
           </div>
           <div class="services">
-            <div class="service">
+            <div
+              class="service"
+              data-aos="fade-up"
+              data-aos-duration="2500"
+              data-aos-anchor-placement="top-center"
+              data-aos-once="true"
+            >
               <img class="service-svg" src="images/coding.svg" />
               <h3>Web Design & Development</h3>
               <p>
@@ -89,7 +97,13 @@
                 to your business.
               </p>
             </div>
-            <div class="service">
+            <div
+              class="service"
+              data-aos="fade-up"
+              data-aos-duration="2500"
+              data-aos-anchor-placement="top-center"
+              data-aos-once="true"
+            >
               <img src="images/cloud-server.svg" class="service-svg" />
               <h3>Web Hosting</h3>
               <p>
@@ -98,7 +112,13 @@
               </p>
             </div>
 
-            <div class="service">
+            <div
+              class="service"
+              data-aos="fade-up"
+              data-aos-duration="2500"
+              data-aos-anchor-placement="top-center"
+              data-aos-once="true"
+            >
               <img class="service-svg" src="images/seo.svg" />
               <h3>S.E.O.</h3>
               <p>
@@ -411,5 +431,9 @@
     <!-- Scripts -->
     <script src="scripts/main.js"></script>
     <script src="scripts/stripe.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
