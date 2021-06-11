@@ -89,16 +89,16 @@ nav {
 }
 
 .nav-links li:nth-child(1) {
-  border-bottom: 1px solid #495057;
+  border-bottom: 1px solid #f8f9fa;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #495057;
+  color: #f8f9fa;
 }
 
 .nav-links li:hover {
-  border-bottom: 1px solid #495057;
+  border-bottom: 1px solid #f8f9fa;
 }
 
 .hamburger.hamburger--spring {
@@ -110,7 +110,7 @@ nav {
   margin: 1em;
   font-size: 1.2em;
   font-weight: 100;
-  color: #495057;
+  color: #f8f9fa;
 }
 
 .logo a {

@@ -35,14 +35,14 @@ nav {
   padding: 5px;
 }
 .nav-links li:nth-child(1) {
-  border-bottom: 1px solid $davysgrey;
+  border-bottom: 1px solid $cultured;
 }
 .nav-links a {
   text-decoration: none;
-  color: $davysgrey;
+  color: $cultured;
 }
 .nav-links li:hover {
-  border-bottom: 1px solid $davysgrey;
+  border-bottom: 1px solid $cultured;
 }
 .hamburger.hamburger--spring {
   display: none;
@@ -52,7 +52,7 @@ nav {
   margin: 1em;
   font-size: 1.2em;
   font-weight: 100;
-  color: $davysgrey;
+  color: $cultured;
   & a {
     color: $davysgrey;
     text-decoration: none;
