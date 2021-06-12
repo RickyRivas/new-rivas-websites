@@ -193,7 +193,7 @@ nav {
     margin: 0;
     position: fixed;
     z-index: 0;
-    width: 60%;
+    width: 75%;
     right: 0px;
     height: 100vh;
     top: 0;
@@ -208,12 +208,12 @@ nav {
   .nav-links li {
     opacity: 0;
     padding: 0.5em 2em;
-    font-size: 1.1em;
-    text-align: center;
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: 300;
     color: black;
     margin: 0.3em;
-    width: 100%;
-    border-bottom: 1px solid black;
+    width: 85%;
   }
   .nav-links li:nth-child(1) {
     border-bottom: 1px solid black;
