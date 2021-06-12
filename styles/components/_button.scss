@@ -16,7 +16,8 @@
   padding: 1px;
   width: 40px;
   height: 40px;
-  background: #ed213a;
+  background: transparent;
+  z-index: 101;
 
   &.show {
     visibility: visible;
@@ -28,7 +29,7 @@
     opacity: 0;
   }
   &:hover {
-    background-color: var(--gold-standard);
+    background-color: $cultured2;
 
     svg {
       fill: #000000;

@@ -660,7 +660,8 @@ nav {
   padding: 1px;
   width: 40px;
   height: 40px;
-  background: #ed213a;
+  background: transparent;
+  z-index: 101;
 }
 
 .top-link.show {
@@ -674,7 +675,7 @@ nav {
 }
 
 .top-link:hover {
-  background-color: var(--gold-standard);
+  background-color: #e9ecef;
 }
 
 .top-link:hover svg {
