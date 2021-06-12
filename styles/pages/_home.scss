@@ -154,7 +154,7 @@
 
 .intro-section {
   width: 100%;
-  background-color: $cultured;
+  background-image: $custombg1;
 }
 .intro-container {
   max-width: 1200px;
@@ -175,12 +175,12 @@
   margin: 1.5em 0.4em;
   font-size: 1em;
   text-align: center;
-  background-color: $cultured2;
+  background-color: $cultured;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: transparent;
+
   padding: 2em 1em;
   width: 100%;
   max-width: 400px;
@@ -200,7 +200,7 @@
 /* Subscription Section */
 .subscription-section {
   width: 100%;
-  background-color: $cultured;
+  background: $custombg2;
 }
 .subscription-container {
   padding: 1em;

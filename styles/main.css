@@ -716,7 +716,7 @@ nav {
 /* Portfolio Section */
 .portfolio-section {
   width: 100%;
-  background-color: #f8f9fa;
+  background: radial-gradient(circle at center center, transparent, white), linear-gradient(309deg, rgba(90, 90, 90, 0.05) 0%, rgba(90, 90, 90, 0.05) 50%, rgba(206, 206, 206, 0.05) 50%, rgba(206, 206, 206, 0.05) 100%), linear-gradient(39deg, rgba(13, 13, 13, 0.05) 0%, rgba(13, 13, 13, 0.05) 50%, rgba(189, 189, 189, 0.05) 50%, rgba(189, 189, 189, 0.05) 100%), linear-gradient(144deg, rgba(249, 249, 249, 0.05) 0%, rgba(249, 249, 249, 0.05) 50%, rgba(111, 111, 111, 0.05) 50%, rgba(111, 111, 111, 0.05) 100%), linear-gradient(166deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 50%, rgba(220, 220, 220, 0.05) 50%, rgba(220, 220, 220, 0.05) 100%), linear-gradient(212deg, rgba(80, 80, 80, 0.05) 0%, rgba(80, 80, 80, 0.05) 50%, rgba(243, 243, 243, 0.05) 50%, rgba(243, 243, 243, 0.05) 100%), radial-gradient(circle at center center, white, white);
 }
 
 .portfolio-container {
@@ -1107,7 +1107,7 @@ nav {
 /* intro container */
 .intro-section {
   width: 100%;
-  background-color: #f8f9fa;
+  background-image: radial-gradient(circle at center center, transparent, white), linear-gradient(309deg, rgba(90, 90, 90, 0.05) 0%, rgba(90, 90, 90, 0.05) 50%, rgba(206, 206, 206, 0.05) 50%, rgba(206, 206, 206, 0.05) 100%), linear-gradient(39deg, rgba(13, 13, 13, 0.05) 0%, rgba(13, 13, 13, 0.05) 50%, rgba(189, 189, 189, 0.05) 50%, rgba(189, 189, 189, 0.05) 100%), linear-gradient(144deg, rgba(249, 249, 249, 0.05) 0%, rgba(249, 249, 249, 0.05) 50%, rgba(111, 111, 111, 0.05) 50%, rgba(111, 111, 111, 0.05) 100%), linear-gradient(166deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 50%, rgba(220, 220, 220, 0.05) 50%, rgba(220, 220, 220, 0.05) 100%), linear-gradient(212deg, rgba(80, 80, 80, 0.05) 0%, rgba(80, 80, 80, 0.05) 50%, rgba(243, 243, 243, 0.05) 50%, rgba(243, 243, 243, 0.05) 100%), radial-gradient(circle at center center, white, white);
 }
 
 .intro-container {
@@ -1137,7 +1137,7 @@ nav {
   margin: 1.5em 0.4em;
   font-size: 1em;
   text-align: center;
-  background-color: #e9ecef;
+  background-color: #f8f9fa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1151,7 +1151,6 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: transparent;
   padding: 2em 1em;
   width: 100%;
   max-width: 400px;
@@ -1177,7 +1176,7 @@ nav {
 /* Subscription Section */
 .subscription-section {
   width: 100%;
-  background-color: #f8f9fa;
+  background: linear-gradient(23deg, rgba(202, 202, 202, 0.02) 0%, rgba(202, 202, 202, 0.02) 13%, transparent 13%, transparent 80%, rgba(11, 11, 11, 0.02) 80%, rgba(11, 11, 11, 0.02) 100%), linear-gradient(42deg, rgba(98, 98, 98, 0.02) 0%, rgba(98, 98, 98, 0.02) 36%, transparent 36%, transparent 77%, rgba(252, 252, 252, 0.02) 77%, rgba(252, 252, 252, 0.02) 100%), linear-gradient(286deg, rgba(173, 173, 173, 0.02) 0%, rgba(173, 173, 173, 0.02) 2%, transparent 2%, transparent 12%, rgba(59, 59, 59, 0.02) 12%, rgba(59, 59, 59, 0.02) 100%), linear-gradient(77deg, rgba(87, 87, 87, 0.02) 0%, rgba(87, 87, 87, 0.02) 18%, transparent 18%, transparent 55%, rgba(247, 247, 247, 0.02) 55%, rgba(247, 247, 247, 0.02) 100%), linear-gradient(90deg, white, white);
 }
 
 .subscription-container {
