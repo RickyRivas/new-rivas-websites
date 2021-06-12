@@ -7,7 +7,7 @@
   bottom: 0;
   right: 0;
   display: inline-flex;
-  z-index: 50;
+
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -16,8 +16,7 @@
   padding: 1px;
   width: 40px;
   height: 40px;
-  background: transparent;
-  z-index: 101;
+  background: var(--standard-gold);
 
   &.show {
     visibility: visible;
@@ -29,7 +28,7 @@
     opacity: 0;
   }
   &:hover {
-    background-color: $cultured2;
+    background-color: var(--standard-gold);
 
     svg {
       fill: #000000;
