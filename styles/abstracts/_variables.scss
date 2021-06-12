@@ -175,3 +175,40 @@ $custombg4: radial-gradient(
     rgb(255, 255, 255),
     rgb(255, 255, 255)
   );
+$custombg5: linear-gradient(
+    23deg,
+    rgba(28, 181, 224, 0.24) 0%,
+    rgba(28, 181, 224, 0.24) 13%,
+    transparent 13%,
+    transparent 80%,
+    rgba(28, 181, 224, 0.24) 80%,
+    rgba(28, 181, 224, 0.24) 100%
+  ),
+  linear-gradient(
+    42deg,
+    rgba(98, 98, 98, 0.03) 0%,
+    rgba(98, 98, 98, 0.03) 36%,
+    transparent 36%,
+    transparent 77%,
+    rgba(252, 252, 252, 0.24) 77%,
+    rgba(252, 252, 252, 0.24) 100%
+  ),
+  linear-gradient(
+    286deg,
+    rgba(28, 181, 224, 0.56) 0%,
+    rgba(28, 181, 224, 0.56) 2%,
+    transparent 2%,
+    transparent 12%,
+    rgba(59, 59, 59, 0.02) 12%,
+    rgba(59, 59, 59, 0.02) 100%
+  ),
+  linear-gradient(
+    77deg,
+    rgba(87, 87, 87, 0.02) 0%,
+    rgba(87, 87, 87, 0.02) 18%,
+    transparent 18%,
+    transparent 55%,
+    rgba(247, 247, 247, 0.02) 55%,
+    rgba(247, 247, 247, 0.02) 100%
+  ),
+  linear-gradient(90deg, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.26));

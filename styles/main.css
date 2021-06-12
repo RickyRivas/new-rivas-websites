@@ -641,7 +641,7 @@ nav {
 /* Portfolio Section */
 .portfolio-section {
   width: 100%;
-  background: radial-gradient(circle at center center, transparent, white), linear-gradient(309deg, rgba(90, 90, 90, 0.05) 0%, rgba(90, 90, 90, 0.05) 50%, rgba(206, 206, 206, 0.05) 50%, rgba(206, 206, 206, 0.05) 100%), linear-gradient(39deg, rgba(13, 13, 13, 0.05) 0%, rgba(13, 13, 13, 0.05) 50%, rgba(189, 189, 189, 0.05) 50%, rgba(189, 189, 189, 0.05) 100%), linear-gradient(144deg, rgba(249, 249, 249, 0.05) 0%, rgba(249, 249, 249, 0.05) 50%, rgba(111, 111, 111, 0.05) 50%, rgba(111, 111, 111, 0.05) 100%), linear-gradient(166deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 50%, rgba(220, 220, 220, 0.05) 50%, rgba(220, 220, 220, 0.05) 100%), linear-gradient(212deg, rgba(80, 80, 80, 0.05) 0%, rgba(80, 80, 80, 0.05) 50%, rgba(243, 243, 243, 0.05) 50%, rgba(243, 243, 243, 0.05) 100%), radial-gradient(circle at center center, white, white);
+  background: linear-gradient(23deg, rgba(28, 181, 224, 0.24) 0%, rgba(28, 181, 224, 0.24) 13%, transparent 13%, transparent 80%, rgba(28, 181, 224, 0.24) 80%, rgba(28, 181, 224, 0.24) 100%), linear-gradient(42deg, rgba(98, 98, 98, 0.03) 0%, rgba(98, 98, 98, 0.03) 36%, transparent 36%, transparent 77%, rgba(252, 252, 252, 0.24) 77%, rgba(252, 252, 252, 0.24) 100%), linear-gradient(286deg, rgba(28, 181, 224, 0.56) 0%, rgba(28, 181, 224, 0.56) 2%, transparent 2%, transparent 12%, rgba(59, 59, 59, 0.02) 12%, rgba(59, 59, 59, 0.02) 100%), linear-gradient(77deg, rgba(87, 87, 87, 0.02) 0%, rgba(87, 87, 87, 0.02) 18%, transparent 18%, transparent 55%, rgba(247, 247, 247, 0.02) 55%, rgba(247, 247, 247, 0.02) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.26));
 }
 
 .portfolio-container {
