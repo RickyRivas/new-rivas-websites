@@ -947,7 +947,7 @@ nav {
     width: 100%;
     position: relative;
     padding: 0.5em;
-    height: 94vh;
+    height: 100vh;
   }
   .landing-container {
     margin: auto;
@@ -1021,7 +1021,7 @@ nav {
   .landing-section {
     width: 100%;
     margin: auto;
-    height: 90vh;
+    height: 100vh;
     background-color: white;
     border: 0;
   }
