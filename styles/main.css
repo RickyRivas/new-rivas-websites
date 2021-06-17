@@ -570,7 +570,7 @@ nav {
 .quote-card button {
   color: #495057;
   background-color: #fff;
-  border-radius: 2em;
+  border-radius: 5px;
   border: 1px solid #ebebeb;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -955,14 +955,18 @@ nav {
   border: 1px solid #fff;
   cursor: pointer;
   outline: none;
-  background-color: transparent;
+  background-color: #fff;
   margin: 1em 0;
   color: #495057;
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
           box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 2em;
+  border-radius: 5px;
   -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
           box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.standard-btn:hover {
+  background-color: #f8f9fa;
 }
 
 .standard-icon {
@@ -1353,10 +1357,15 @@ nav {
 .pricing-card-btn {
   width: 9em;
   height: 2.5em;
-  border-radius: 1rem;
+  border-radius: 5px;
+  background-color: #fff;
   border: none;
   margin: 1em;
   border: 1px solid #c9d1d8;
+}
+
+.pricing-card-btn:hover {
+  background-color: #f8f9fa;
 }
 
 .pm {

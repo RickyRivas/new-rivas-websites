@@ -12,21 +12,21 @@
   z-index: 1;
 }
 .standard-btn {
-
   padding: 1em;
 min-width: 10em;
   text-align: center;
   border: 1px solid #fff;
   cursor: pointer;
   outline: none;
-  background-color: transparent;
+  background-color: #fff;
   margin: 1em 0;
   color: $davysgrey;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-
-  border-radius: 2em;
-  
+  border-radius: 5px;
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+&:hover {
+  background-color: $cultured;
+}
 }
 .standard-icon {
   width: 2em;
@@ -294,10 +294,14 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 .pricing-card-btn {
   width: 9em;
   height: 2.5em;
-  border-radius: 1rem;
+  border-radius: 5px;
+  background-color: #fff;
   border: none;
   margin: 1em;
   border: 1px solid #c9d1d8;
+  &:hover {
+    background-color: $cultured
+  }
 }
 .pm {
   font-size: 0.5em;
