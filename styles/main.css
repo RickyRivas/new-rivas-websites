@@ -98,7 +98,7 @@ nav {
 }
 
 .nav-links li:hover {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fff;
 }
 
 .hamburger.hamburger--spring {
@@ -332,17 +332,15 @@ nav {
     margin: 0.3em;
     width: 85%;
   }
-  .nav-links li:nth-child(1) {
-    border-bottom: 1px solid black;
-  }
   .nav-links li a {
     color: #343a40;
   }
   .nav-links li:nth-child(1) {
     margin-top: 3em;
+    border-bottom: 1px solid black;
   }
   .nav-links li:hover {
-    text-decoration: none;
+    border-bottom: 1px solid #000;
   }
   .logo {
     z-index: 100;
@@ -909,8 +907,7 @@ nav {
 }
 
 .icon-right:after {
-  font-family: "FontAwesome";
-  content: '\2192';
+  content: '&RightArrow';
   font-size: 24px;
   display: inline-block;
   position: relative;
@@ -927,7 +924,7 @@ nav {
 }
 
 .icon-right.after:before {
-  content: "Inquire";
+  content: "&rarr";
   position: absolute;
   left: -230px;
   top: 14px;

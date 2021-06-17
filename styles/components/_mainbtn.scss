@@ -66,8 +66,7 @@
 	top: 0;
 	right: 0;
 	&:after {
-		font-family: "FontAwesome";
-		content: '\2192';
+		content: '&RightArrow';
 		font-size: 24px;
 		display: inline-block;
 		position: relative;
@@ -80,7 +79,7 @@
 		transition: .15s .25s ease left, .5s .05s ease color;
 	}
 	&.after:before {
-		content: "Inquire";
+		content: "&rarr";
 		position: absolute;
 		left: -230px;
 		top: 14px;
