@@ -828,17 +828,18 @@ nav {
 }
 
 .button {
+  font-family: 'Space Mono', monospace;
   letter-spacing: 1px;
   background: none;
   color: white;
   position: relative;
   outline: none;
   border: none;
-  margin: 1em;
-  height: 3em;
-  width: 10em;
-  font-size: 14px;
   border-radius: 5px;
+  margin: 1em;
+  height: 50px;
+  min-width: 15em;
+  font-size: 14px;
   z-index: 2;
   -webkit-transition: .01s .23s ease-out all;
   transition: .01s .23s ease-out all;
@@ -852,7 +853,7 @@ nav {
   top: 0;
   height: 100%;
   width: 55%;
-  background: #202020;
+  background: #000;
   z-index: -1;
   -webkit-transition: .3s ease-in all;
   transition: .3s ease-in all;
@@ -907,7 +908,8 @@ nav {
 }
 
 .icon-right:after {
-  content: '&RightArrow';
+  font-family: "FontAwesome";
+  content: '\2192';
   font-size: 24px;
   display: inline-block;
   position: relative;
@@ -924,7 +926,7 @@ nav {
 }
 
 .icon-right.after:before {
-  content: "&rarr";
+  content: 'Explore';
   position: absolute;
   left: -230px;
   top: 14px;
