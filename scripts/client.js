@@ -1,5 +1,5 @@
-var stripe = Stripe(
-  "pk_test_51J3aqYCroHKRNssY92p9LNBrx6eGtkaKBHuIIlOFPgshrRwMrvYXlvTthhXBea7JvGFKh1gLhPIu5c1KM6KAdk4500cfAjeXSS",
+let stripe = Stripe(
+  "pk_live_51J3aqYCroHKRNssYQXQnikWxzrA8qG1Ngfd2NdkisnzUhrIK7EOymjjErLiK2kUT0vLqTnekCivWDHNmEIv7dAhJ00Ohoe6P3g",
   {
     apiVersion: "2020-08-27",
   }
