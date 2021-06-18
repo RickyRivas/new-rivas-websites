@@ -8,6 +8,8 @@
       name="description"
       content="Welcome to Rivas Websites! We create websites by hand and manage them for our clients for an affordable price."
     />
+      <script src='scripts/client.js'></script>
+     <script  src="https://js.stripe.com/v3/"></script>
     <!-- Fonts -->
 <link href="https://api.fontshare.com/css?f[]=cabinet-grotesk@300&display=swap" rel="stylesheet">
 
@@ -371,6 +373,10 @@
         </div>
       </section>
       <!-- Contact Section End -->
+      <div id="payment-request-button">
+  <!-- A Stripe Element will be inserted here. -->
+</div>
+
       <!-- FOOTER START -->
       <div class="footer">
         <div class="contain">
@@ -450,12 +456,13 @@
     </main>
     <!-- Main Container End -->
     <!-- Scripts -->
+   
     <script src="scripts/main.js"></script>
-    <script src="scripts/stripe.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
     <script src="https://kit.fontawesome.com/569f248ee3.js" crossorigin="anonymous"></script>
+
   </body>
 </html>
