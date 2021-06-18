@@ -42,7 +42,7 @@ nav {
   color: $cultured;
 }
 .nav-links li:hover {
-  border-bottom: 1px solid $cultured;
+  border-bottom: 1px solid #fff;
 }
 .hamburger.hamburger--spring {
   display: none;
@@ -215,18 +215,16 @@ nav {
     margin: 0.3em;
     width: 85%;
   }
-  .nav-links li:nth-child(1) {
-    border-bottom: 1px solid black;
-  }
   .nav-links li a {
     color: $gunmetal;
   }
   .nav-links li:nth-child(1) {
     margin-top: 3em;
+     border-bottom: 1px solid black;
   }
   .nav-links li:hover {
-    text-decoration: none;
-  }
+  border-bottom: 1px solid #000;
+}
   .logo {
     z-index: 100;
     font-weight: 100;
@@ -234,7 +232,6 @@ nav {
     width: auto;
     color: black;
   }
-
   .is-active {
     transform: translateX(0%);
   }

@@ -7,14 +7,13 @@
 }
 .img {
   width: 100%;
-  background: url(/images/imac-screen.jpg);
+  background: url(/images//illu.svg);
   background-size: cover;
-  background-position: center;
+  background-position:bottom;
 }
 .quote-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2em;
   background: $cultured;
   margin: auto;
   max-width: 1200px;
@@ -24,7 +23,7 @@
   & button {
     color: $davysgrey;
     background-color: #fff;
-    border-radius: 2em;
+    border-radius: 5px;
     border: 1px solid #ebebeb;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
