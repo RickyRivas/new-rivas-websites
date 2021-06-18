@@ -14,3 +14,16 @@ var paymentRequest = stripe.paymentRequest({
   requestPayerName: true,
   requestPayerEmail: true,
 });
+var elements = stripe.elements();
+var prButton = elements.create("paymentRequestButton", {
+  paymentRequest: paymentRequest,
+});
+
+// Check the availability of the Payment Request API first.
+paymentRequest.canMakePayment().then(function (result) {
+  if (result) {
+    prButton.mount("#payment-request-button");
+  } else {
+    document.getElementById("payment-request-button").style.display = "none";
+  }
+});
