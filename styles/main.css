@@ -991,7 +991,7 @@ body.dark-mode .targetElement {
 
 .dark-toggle {
   margin: 0;
-  width: 2em;
+  width: 1.5em;
   height: 2em;
   z-index: 20;
   border-radius: 10px;
@@ -1045,7 +1045,7 @@ body.dark-mode .dark-toggle {
 }
 
 body.dark-mode .dark-toggle span {
-  top: 25px;
+  top: 30px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   background-image: url(/images/half-moon.svg);
