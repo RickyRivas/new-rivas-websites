@@ -561,6 +561,7 @@ nav {
   margin: auto;
   max-width: 1200px;
       grid-template-areas: "img box";
+  border-radius: 0.5em;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
