@@ -1052,7 +1052,7 @@ body.dark-mode .dark-toggle span {
 
 /* Begin adding your dark mode styles here, like so: */
 body.dark-mode {
-  background: #000;
+  background: #212529;
 }
 
 body.dark-mode .intro-heading,
@@ -1061,9 +1061,38 @@ body.dark-mode .sub-heading {
   color: #fff;
 }
 
+.custom-shape-divider-bottom-1624466675 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1624466675 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1624466675 .shape-fill {
+  fill: transparent;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1624466675 svg {
+    width: calc(149% + 1.3px);
+    height: 156px;
+  }
+}
+
 /* Main Container CSS */
 #main-container {
-  position: relative;
   padding: 0;
   margin: auto;
   width: 100%;
@@ -1071,6 +1100,7 @@ body.dark-mode .sub-heading {
 
 .landing-section {
   z-index: 1;
+  position: relative;
 }
 
 .standard-btn {
@@ -1106,15 +1136,14 @@ body.dark-mode .sub-heading {
 /* Landing Section */
 @media (min-width: 769px) {
   .landing-section {
+    position: relative;
     margin: auto;
     width: 100%;
-    position: relative;
     padding: 0.5em;
     height: calc((100vw / 1.8) - 88px);
-    /* svg bg */
-    background: linear-gradient(45deg, #e0eafc, #cfdef3);
   }
   .landing-container {
+    position: relative;
     margin: auto;
     max-width: 1100px;
     height: 100%;
@@ -1179,11 +1208,12 @@ body.dark-mode .sub-heading {
   .landing-section {
     margin: auto;
     width: 100%;
-    position: relative;
     padding: 0.5em;
     height: 100vh;
+    position: relative;
   }
   .landing-container {
+    position: relative;
     margin: auto;
     max-width: 1100px;
     display: -webkit-box;
