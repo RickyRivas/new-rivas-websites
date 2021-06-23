@@ -934,6 +934,14 @@ nav {
   transition: .2s ease-in all;
 }
 
+@media (max-width: 425px) {
+  .stripe-section {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /* Main Container CSS */
 #main-container {
   position: relative;
