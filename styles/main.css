@@ -636,6 +636,19 @@ nav {
   --gradient-color-4: #1cb5e0;
 }
 
+body.dark-mode #gradient-canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  --gradient-color-1: #000;
+  --gradient-color-2: #fff;
+  --gradient-color-3: #000;
+  --gradient-color-4: #fff;
+}
+
 /* Portfolio Section */
 .portfolio-section {
   width: 100%;
