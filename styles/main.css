@@ -974,7 +974,7 @@ body.dark-mode .targetElement {
 
 .top-dark-mode-button {
   position: absolute;
-  top: 3em;
+  top: 4em;
   right: 15px;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -983,34 +983,16 @@ body.dark-mode .targetElement {
   transition: 0.3s ease-in;
 }
 
-.top-dark-mode-button:after {
-  content: "DARK";
-  position: absolute;
-  color: #fff;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  right: 22px;
-  top: 10px;
-  -webkit-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
-}
-
-body.dark-mode .top-dark-mode-button:after {
-  content: "LIGHT";
-  color: var(--primary);
-  top: 12px;
-}
-
 .top-dark-mode-button .dark-toggle {
   background: #e6e6e6;
   border-color: #e6e6e6;
-  width: 35px;
+  width: 50px;
 }
 
 .dark-toggle {
   margin: 0;
-  width: 30px;
-  height: 16px;
+  width: 2em;
+  height: 2em;
   z-index: 20;
   border-radius: 10px;
   background: transparent;
@@ -1047,8 +1029,8 @@ body.dark-mode .dark-toggle {
 }
 
 .dark-toggle span {
-  height: 20px;
-  width: 20px;
+  height: 2em;
+  width: 2em;
   left: -8px;
   border-radius: 50%;
   background: #fff;
@@ -1057,18 +1039,23 @@ body.dark-mode .dark-toggle {
   transition: 0.3s ease;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  background-image: url(/images/sun.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 body.dark-mode .dark-toggle span {
-  left: 15px;
+  left: 25px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  background-image: url(/images/half-moon.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .top-dark-mode-button .dark-toggle {
   background: #e6e6e6;
   border-color: #e6e6e6;
-  width: 35px;
 }
 
 /* Begin adding your dark mode styles here, like so: */
