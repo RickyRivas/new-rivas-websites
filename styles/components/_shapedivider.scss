@@ -1,4 +1,4 @@
-.custom-shape-divider-bottom-1624466675 {
+.custom-shape-divider-bottom-1624511305 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -8,21 +8,21 @@
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1624466675 svg {
+.custom-shape-divider-bottom-1624511305 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 150px;
 }
 
-.custom-shape-divider-bottom-1624466675 .shape-fill {
-  fill: transparent;
+.custom-shape-divider-bottom-1624511305 .shape-fill {
+  fill: #fff;
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
-  .custom-shape-divider-bottom-1624466675 svg {
-    width: calc(149% + 1.3px);
-    height: 156px;
+  .custom-shape-divider-bottom-1624511305 svg {
+    width: calc(100% + 1.3px);
+    height: 196px;
   }
 }
