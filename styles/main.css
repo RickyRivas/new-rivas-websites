@@ -1427,7 +1427,6 @@ nav {
 }
 
 input[type="text"] {
-  border-radius: 8px;
   border: 0;
   outline: none;
   padding: 12px 20px;
@@ -1443,7 +1442,6 @@ input[type="text"]:hover {
 }
 
 input[type="email"] {
-  border-radius: 8px;
   border: 0;
   outline: none;
   padding: 12px 20px;
@@ -1465,7 +1463,6 @@ textarea {
   outline: none;
   border: none;
   resize: none;
-  border-radius: 8px;
   width: 100%;
   padding: 18px;
   border-bottom: 1px solid #c9d1d8;
