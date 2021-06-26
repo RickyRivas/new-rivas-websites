@@ -567,15 +567,6 @@ nav {
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.quote-card button {
-  color: #495057;
-  background-color: #fff;
-  border-radius: 5px;
-  border: 1px solid #ebebeb;
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
 .quote-card .img {
   max-height: 400px;
   -ms-grid-row: 1;
@@ -840,6 +831,7 @@ nav {
   overflow: hidden;
   cursor: pointer;
   text-decoration: underline;
+  padding: 2px;
 }
 
 .button:hover {
