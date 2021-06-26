@@ -548,9 +548,10 @@ nav {
 
 .img {
   width: 100%;
-  background: url(/images/iphone12rw.jpg);
+  background: url(/images/iphone12rwpsd.jpg);
   background-size: cover;
   background-position: bottom;
+  background-color: #f8f9fa;
 }
 
 .quote-card {
