@@ -9,7 +9,6 @@
 }
 .landing-section {
   z-index: 1;
-  position: relative;
 }
 .standard-btn {
   padding: 1em;
@@ -39,10 +38,10 @@
 /* Landing Section */
 @media (min-width: 769px) {
   .landing-section {
-    position: relative;
     margin: auto;
     width: 100%;
     height: calc((100vw / 1.8) - 88px);
+    position: relative;
   }
   .landing-container {
     margin: auto;
