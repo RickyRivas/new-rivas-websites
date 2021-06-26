@@ -3,17 +3,17 @@
 // -----------------------------------------------------------------------------
 /* Main Container CSS */
 #main-container {
-  position: relative;
   padding: 0;
   margin: auto;
   width: 100%;
 }
 .landing-section {
   z-index: 1;
+  position: relative;
 }
 .standard-btn {
   padding: 1em;
-min-width: 10em;
+  min-width: 10em;
   text-align: center;
   border: 1px solid #fff;
   cursor: pointer;
@@ -23,10 +23,11 @@ min-width: 10em;
   color: $davysgrey;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 5px;
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-&:hover {
-  background-color: $cultured;
-}
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  &:hover {
+    background-color: $cultured;
+  }
 }
 .standard-icon {
   width: 2em;
@@ -38,13 +39,10 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 /* Landing Section */
 @media (min-width: 769px) {
   .landing-section {
+    position: relative;
     margin: auto;
     width: 100%;
-    position: relative;
-    padding: 0.5em;
-      height: calc((100vw / 1.8) - 88px);
-    /* svg bg */
-    background: linear-gradient(45deg, #e0eafc, #cfdef3);
+    height: calc((100vw / 1.8) - 88px);
   }
   .landing-container {
     margin: auto;
@@ -92,14 +90,13 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   .landing-section {
     margin: auto;
     width: 100%;
-    position: relative;
-    padding: 0.5em;
     height: 100vh;
+    position: relative;
   }
   .landing-container {
+    position: relative;
     margin: auto;
     max-width: 1100px;
-
     display: flex;
     background: transparent;
     flex-direction: column;
@@ -145,15 +142,13 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
     width: 100%;
     margin: auto;
     height: 100vh;
-    background-color: white;
     border: 0;
   }
 }
 /* intro container */
-
 .intro-section {
   width: 100%;
-  background-image: $custombg2;
+  background-image: #fff;
 }
 .intro-container {
   max-width: 1200px;
@@ -199,7 +194,6 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 /* Subscription Section */
 .subscription-section {
   width: 100%;
-  background: $custombg1;
 }
 .subscription-container {
   padding: 1em;
@@ -300,7 +294,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   margin: 1em;
   border: 1px solid #c9d1d8;
   &:hover {
-    background-color: $cultured
+    background-color: $cultured;
   }
 }
 .pm {
@@ -314,7 +308,6 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
     width: 350px;
     border-radius: 0.5rem;
     height: 500px;
-    background-color: #fff;
 
     margin-bottom: 1em;
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
@@ -332,6 +325,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
     font-weight: 300;
     width: 100%;
     height: 3rem;
+    color: #000;
     display: flex;
     align-items: center;
     padding: 0.5em;
@@ -367,7 +361,6 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 /* Contact Section */
 .contact-section {
   width: 100%;
-  background-color: $cultured;
 }
 .contact-container {
   max-width: 1000;
