@@ -928,7 +928,7 @@ nav {
             justify-content: center;
     line-height: 2em;
     height: 100%;
-    color: #f8f9fa;
+    color: #212529;
   }
   .landing-heading button {
     color: #f8f9fa;
@@ -1005,12 +1005,12 @@ nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    color: #f8f9fa;
+    color: #212529;
     margin-top: 3em;
   }
   .landing-heading button {
-    color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+    color: #212529;
+    border: 1px solid #212529;
   }
   .landing-illustration {
     display: -webkit-box;
