@@ -25,7 +25,7 @@
 
 html {
   font-size: 16px;
-  font-family: 'Cabinet Grotesk', sans-serif;
+  font-family: 'Synonym', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -991,7 +991,7 @@ nav {
   }
   .landing-heading {
     padding: 1em;
-    text-align: center;
+    text-align: left;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1002,14 +1002,22 @@ nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     color: #212529;
     margin-top: 3em;
   }
+  .landing-heading h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  .landing-heading p {
+    margin-bottom: 20px;
+  }
   .landing-heading button {
     color: #212529;
+    margin: 0;
     border: 1px solid #212529;
   }
   .landing-illustration {

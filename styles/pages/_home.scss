@@ -105,15 +105,23 @@
   }
   .landing-heading {
     padding: 1em;
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     color: $charlestongreen;
     margin-top: 3em;
+    & h1{
+      margin-bottom: 20px;
+      font-size: 2.5em;
+    }
+    & p{
+      margin-bottom: 20px;
+    }
     & button {
       color: $charlestongreen;
+      margin: 0;
       border: 1px solid $charlestongreen;
     }
   }
