@@ -547,10 +547,9 @@ nav {
 }
 
 .img {
-  width: 100%;
   background: url(/images/iphone12psd.png);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: center center;
   background-color: #f8f9fa;
 }
 
@@ -613,6 +612,12 @@ nav {
     margin: auto;
     max-width: 500px;
         grid-template-areas: "box" "img";
+  }
+  .img {
+    background: url(/images/iphone12psd.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: #f8f9fa;
   }
 }
 
@@ -1014,11 +1019,9 @@ nav {
   }
   .landing-heading h1 {
     margin-bottom: 20px;
-    font-size: 2.5em;
   }
   .landing-heading p {
     margin-bottom: 20px;
-    font-size: 1.2em;
   }
   .landing-heading button {
     color: #212529;
