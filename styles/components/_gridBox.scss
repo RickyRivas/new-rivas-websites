@@ -4,11 +4,10 @@
   justify-content: center;
   align-items: center;
   padding: 1em;
-
 }
-.img {  
-  background: url(/images/iphone12psd.png);
-  background-size: contain;
+.img {
+  background: url(/images/maclalaja.png);
+  background-size: cover;
   background-position: center center;
   background-color: $cultured;
 }
@@ -51,10 +50,10 @@
       "box"
       "img";
   }
-  .img {  
-  background: url(/images/iphone12psd.png);
-  background-size: cover;
-  background-position: center center;
-  background-color: $cultured;
-}
+  .img {
+    background: url(/images/maclalaja.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: $cultured;
+  }
 }

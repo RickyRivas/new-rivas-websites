@@ -547,8 +547,8 @@ nav {
 }
 
 .img {
-  background: url(/images/iphone12psd.png);
-  background-size: contain;
+  background: url(/images/maclalaja.png);
+  background-size: cover;
   background-position: center center;
   background-color: #f8f9fa;
 }
@@ -614,7 +614,7 @@ nav {
         grid-template-areas: "box" "img";
   }
   .img {
-    background: url(/images/iphone12psd.png);
+    background: url(/images/maclalaja.png);
     background-size: cover;
     background-position: center center;
     background-color: #f8f9fa;
