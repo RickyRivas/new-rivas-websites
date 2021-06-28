@@ -35,14 +35,14 @@ nav {
   padding: 5px;
 }
 .nav-links li:nth-child(1) {
-  border-bottom: 1px solid $cultured;
+  border-bottom: 1px solid #000;
 }
 .nav-links a {
   text-decoration: none;
-  color: $cultured;
+  color: #000;
 }
 .nav-links li:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
 }
 .hamburger.hamburger--spring {
   display: none;
