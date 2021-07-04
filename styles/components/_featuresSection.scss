@@ -1,3 +1,4 @@
+@media (min-width: 0px){
 .features-section{
     height: auto;
     background-color: transparent;
@@ -14,6 +15,8 @@
 }
 .features-heading{
     margin-bottom: 1em;
+    text-align: center;
+    font-size: 1.2em;
 }
 .features-grid{
     display: grid;
@@ -52,4 +55,5 @@
 }
 .grid-item-4{
     grid-area: g4;
+}
 }
