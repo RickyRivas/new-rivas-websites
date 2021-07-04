@@ -936,6 +936,7 @@ nav {
         -ms-flex-pack: center;
             justify-content: center;
     line-height: 2em;
+    font-size: .9em;
     height: 100%;
     color: #212529;
   }
