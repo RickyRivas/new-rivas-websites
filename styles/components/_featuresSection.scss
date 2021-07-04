@@ -17,6 +17,10 @@
     margin-bottom: 1em;
     text-align: center;
     font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .features-grid{
     display: grid;
