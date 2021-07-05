@@ -939,7 +939,7 @@ nav {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .plan-img p {
+  .plan-img h2 {
     margin-bottom: 1em;
   }
   .plan-content {
@@ -962,12 +962,13 @@ nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: .5em;
   }
   .plan-content .li-head::before {
     content: url(/images/check.svg);
-    width: 1.5em;
-    height: 1.5em;
-    margin: .5em;
+    width: 1em;
+    height: 1em;
+    margin-right: .5em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -976,9 +977,7 @@ nav {
   }
   .plan-content .list-item {
     width: 100%;
-    margin-bottom: 1em;
-    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: .5em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -992,8 +991,10 @@ nav {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding: 0 1em 2em 1em;
+    padding: 0.2em 1em 2em 1em;
     border-radius: .5em;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
 }
 
