@@ -97,6 +97,9 @@
     }
 }
 @media (min-width: 1024px){
+    .plan-img{
+      max-width: 100%;
+    }
     .plan-content{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
