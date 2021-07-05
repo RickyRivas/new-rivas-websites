@@ -12,7 +12,7 @@
         grid-template-areas:
             "plan-img"
             "plan-content";
-            grid-gap: 3em;
+            grid-gap: 20px;
     }
 
     .plan-img {
@@ -26,6 +26,9 @@
         flex-direction: column;
 
         & h2 {
+            margin-bottom: 1em;
+        }
+        & p{
             margin-bottom: 1em;
         }
     }

@@ -917,7 +917,7 @@ nav {
         grid-template-rows: auto, -webkit-max-content;
         grid-template-rows: auto, max-content;
         grid-template-areas: "plan-img" "plan-content";
-    grid-gap: 3em;
+    grid-gap: 20px;
   }
   .plan-img {
     -ms-grid-row: 1;
@@ -940,6 +940,9 @@ nav {
             flex-direction: column;
   }
   .plan-img h2 {
+    margin-bottom: 1em;
+  }
+  .plan-img p {
     margin-bottom: 1em;
   }
   .plan-content {
