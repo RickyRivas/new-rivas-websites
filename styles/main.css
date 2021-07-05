@@ -904,62 +904,27 @@ nav {
 }
 
 @media (min-width: 0px) {
-  .features-section {
-    height: auto;
-    background-color: transparent;
+  .plan-section {
     width: 100%;
   }
-  .features-container {
+  .plan-container {
+    max-width: 1200px;
     margin: auto;
     padding: 1em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: auto;
-  }
-  .features-heading {
-    margin-bottom: 1em;
-    text-align: center;
-    font-size: 1.2em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .features-grid {
     display: -ms-grid;
     display: grid;
-    width: 100%;
-    max-width: 700px;
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    grid-gap: .5em;
-    place-items: center;
-        grid-template-areas: "g1 g2" "g3 g4";
+    -ms-grid-rows: auto, max-content;
+        grid-template-rows: auto, -webkit-max-content;
+        grid-template-rows: auto, max-content;
+        grid-template-areas: "plan-img" "plan-content";
+    grid-gap: 3em;
   }
-  .grid-item {
+  .plan-img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: plan-img;
+    max-width: 600px;
     width: 100%;
-    padding: .5em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -968,39 +933,67 @@ nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: left;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 2em 1em;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-    max-width: 350px;
   }
-  .grid-item img {
-    width: 3em;
-    height: 3em;
-    margin-bottom: .5em;
+  .plan-img p {
+    margin-bottom: 1em;
   }
-  .grid-item-1 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: g1;
-  }
-  .grid-item-2 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-    grid-area: g2;
-  }
-  .grid-item-3 {
+  .plan-content {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
-    grid-area: g3;
+    grid-area: plan-content;
+    display: -ms-grid;
+    display: grid;
   }
-  .grid-item-4 {
-    -ms-grid-row: 2;
-    -ms-grid-column: 2;
-    grid-area: g4;
+  .plan-content .li-head {
+    font-weight: 800;
+    font-size: 1.3em;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .plan-content .li-head::before {
+    content: url(/images/check.svg);
+    width: 1.5em;
+    height: 1.5em;
+    margin: .5em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .plan-content .list-item {
+    width: 100%;
+    margin-bottom: 1em;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 1em 2em 1em;
+    border-radius: .5em;
   }
 }
 
